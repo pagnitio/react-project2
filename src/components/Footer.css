@@ -1,0 +1,108 @@
+/* Footer section styling */
+.footer-section {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer left content (About Us) */
+  .footer-left {
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-left h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer center content (Quick Links) */
+  .footer-center {
+    flex: 1;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .footer-center h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+   
+  /* Footer right content (Social Media) */
+  .footer-right {
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-right h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 0.75rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-left, .footer-center, .footer-right {
+      margin-bottom: 2rem;
+    }
+  }
+  .footer_menu {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center the items horizontally */
+    padding: 10px 0; /* Optional: add some padding */
+ 
+  }
+  
+  .fitems {
+    margin: 5px 0; /* Space between menu items vertically */
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Text color */
+    font-size: 1rem; /* Font size */
+  }
+  
+  .fitems:hover {
+    color: #007BFF; /* Change color on hover */
+  }
+  

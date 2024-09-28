@@ -1,0 +1,32 @@
+.activities-container {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    margin-top: 20px; /* Space above the section */
+    margin-bottom: 30px;
+  }
+  
+  .activities-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .activity-item {
+    padding: 10px; /* Inner padding */
+    border-bottom: 1px solid #f0f0f0; /* Divider line */
+  }
+  
+  .activity-item:last-child {
+    border-bottom: none; /* Remove border for last item */
+  }
+  
+  .activity-item p {
+    margin: 0; /* Remove margin for paragraph */
+  }
+  
+  .activity-item span {
+    color: #888; /* Grey color for time */
+    font-size: 0.9rem; /* Smaller font for time */
+  }
+  

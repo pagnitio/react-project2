@@ -1,0 +1,19 @@
+.statistics-container {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space items evenly */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .stat-item {
+    background-color: white; /* White background for each statistic */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    padding: 20px; /* Inner padding */
+    flex: 1; /* Flex-grow */
+    min-width: 200px; /* Minimum width for responsive layout */
+    text-align: center; /* Center align text */
+    margin: 10px;
+  }
+  
